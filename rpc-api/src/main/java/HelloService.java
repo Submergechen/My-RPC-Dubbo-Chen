@@ -1,4 +1,4 @@
-import entity.HelloObject;
+
 
 /**
  * @author submerge
