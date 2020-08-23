@@ -2,45 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4e22e17-9a8b-4d6f-9b54-19eb6aec0786" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-api/src/main/java/ByeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-api/src/main/java/HelloObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-common/src/main/java/entity/RPCRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-common/src/main/java/entity/RPCResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-common/src/main/java/enumeration/RpcConfigProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-common/src/main/java/factory/SingletonFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-common/src/main/java/factory/ThreadPoolFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-common/src/main/java/util/RPCMessageChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-common/src/main/java/util/ReflectUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-common/src/main/java/util/concurrent/threadpool/CustomThreadPoolConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-common/src/main/java/util/concurrent/threadpool/ThreadPoolFactoryUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-common/src/main/java/util/file/PropertiesFileUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-core/src/main/java/annotation/Service.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-core/src/main/java/annotation/ServiceScan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-core/src/main/java/handler/RequestHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-core/src/main/java/hook/CustomShutdownHook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-core/src/main/java/loadblancer/AbstractLoadBalance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-core/src/main/java/loadblancer/LoadBalance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-core/src/main/java/provider/ServiceProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-core/src/main/java/provider/ServiceProviderImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-core/src/main/java/registry/ServiceDiscovery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-core/src/main/java/registry/zk/ZkServiceDiscovery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-core/src/main/java/registry/zk/ZkServiceRegistry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-core/src/main/java/registry/zk/util/CuratorUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-core/src/main/java/transport/AbstractRpcServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-core/src/main/java/transport/RpcClientProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-core/src/main/java/transport/netty/client/ChannelProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-core/src/main/java/transport/netty/client/NettyClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-core/src/main/java/transport/netty/client/NettyClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-core/src/main/java/transport/netty/client/UnprocessedRequests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-core/src/main/java/transport/netty/server/NettyServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-core/src/main/java/transport/netty/server/NettyServerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-client/src/main/java/NettyTestClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-server/ByeServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-server/HelloServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-server/NettyTestServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-server/SocketTestServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc-api/src/main/java/HelloService.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-api/src/main/java/HelloService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Dubbo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/architecture.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/dubbo-architure.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -77,33 +43,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/transport/AbstractRpcServer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-506">
-              <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/transport/RPCClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/transport/RpcClientProxy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/transport/RPCServer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="115">
@@ -121,17 +60,39 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rpc-server/src/main/java/HelloServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+            <state relative-caret-position="253">
+              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
               <folding>
                 <element signature="e#170#171#0" expanded="true" />
                 <element signature="e#224#225#0" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="390">
+                <caret line="106" selection-start-line="106" selection-end-line="106" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/images/architecture.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/images/dubbo-architure.jpg">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -185,7 +146,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/rpc-core/src/main/java/registry/ServiceDiscovery.java" />
         <option value="$PROJECT_DIR$/rpc-core/src/main/java/loadblancer/RoundRobinLoadBalancer.java" />
         <option value="$PROJECT_DIR$/rpc-core/src/main/java/loadblancer/AbstractLoadBalance.java" />
         <option value="$PROJECT_DIR$/rpc-core/src/main/java/loadblancer/LoadBalance.java" />
@@ -236,11 +196,12 @@
         <option value="$PROJECT_DIR$/rpc-core/src/main/java/transport/RPCServer.java" />
         <option value="$PROJECT_DIR$/test-client/src/main/java/NettyTestClient.java" />
         <option value="$PROJECT_DIR$/rpc-server/src/main/java/HelloServiceImpl.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="216" />
+    <option name="x" value="487" />
     <option name="y" value="32" />
     <option name="width" value="1400" />
     <option name="height" value="974" />
@@ -263,7 +224,7 @@
             <path>
               <item name="My-RPC-Dubbo-Chen" type="b2602c69:ProjectViewProjectNode" />
               <item name="My-RPC-Dubbo-Chen" type="462c0819:PsiDirectoryNode" />
-              <item name="test-server" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -273,7 +234,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/rpc-core/src/main/java/transport" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -283,17 +244,18 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\My-RPC-Dubbo-Chen\images" />
       <recent name="G:\My-RPC-Dubbo-Chen\rpc-server" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\My-RPC-Dubbo-Chen\images" />
+      <recent name="G:\My-RPC-Dubbo-Chen" />
       <recent name="G:\My-RPC-Dubbo-Chen\rpc-core\src\main\java\transport" />
       <recent name="G:\My-RPC-Dubbo-Chen\rpc-common\src\main\java\entity" />
       <recent name="G:\My-RPC-Dubbo-Chen\rpc-core\src\main\java\handler" />
-      <recent name="G:\My-RPC-Dubbo-Chen\rpc-core\src\main\java\transport\netty\server" />
-      <recent name="G:\My-RPC-Dubbo-Chen\rpc-core\src\main\java\transport\netty\client" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="enumeration" />
@@ -341,7 +303,7 @@
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="bottom" id="Messages" order="12" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Messages" order="12" visible="true" weight="0.3286334" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -355,40 +317,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2020/8/20" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020/8/20" />
+    <MESSAGE value="2020/8/23,core部分" />
+    <MESSAGE value="2020/8/23,client和server部分" />
+    <MESSAGE value="2020/8/23" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020/8/23" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/rpc-common/src/main/java/factory/ThreadPoolFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rpc-common/src/main/java/util/concurrent/threadpool/CustomThreadPoolConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rpc-common/src/main/java/util/concurrent/threadpool/ThreadPoolFactoryUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rpc-common/src/main/java/util/file/PropertiesFileUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rpc-common/src/main/java/util/ReflectUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
@@ -751,12 +685,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/rpc-server/src/main/java/HelloServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+        <state relative-caret-position="253">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
           <folding>
             <element signature="e#170#171#0" expanded="true" />
             <element signature="e#224#225#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-server/src/main/java/TestServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/dubbo-architure.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/architecture.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="390">
+            <caret line="106" selection-start-line="106" selection-end-line="106" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
